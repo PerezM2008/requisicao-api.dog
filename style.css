@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    height: 10vh;
+    width: auto;
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pesquisa{
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    
+}
+.buscar{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(176, 247, 223);
+    border-color: aliceblue;
+    color: rgb(163, 163, 248);
+    border-radius: 10px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    
+}
+.cards{
+    height: 30vh;
+    width: 20vh;
+    border-radius: 10px;
+   
+}
+.fotos:hover{
+    text-decoration: none;
+    border: 2px solid blueviolet;
+    transition: all 0,5s;
+
+
+}
